@@ -11,10 +11,10 @@ mkdir -p classes
 mkdir -p build
 
 # compile clj
-java -classpath lib/clojure-1.8.0.jar:src:classes clojure.main -e "(compile 'hello.Core)"
+java -classpath lib/clojure-1.8.0.jar:src:classes clojure.main -e "(compile 'hello.core)"
 
 # copy the clojure jar
 cp lib/clojure-1.8.0.jar build/hello.jar
 
 # update jar with compiled classes and change main method
-jar -uvfe build/hello.jar hello.Core -C classes/ .
+jar -uvfe build/hello.jar hello.core -C classes/ .
