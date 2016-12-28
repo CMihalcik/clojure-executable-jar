@@ -64,7 +64,7 @@ java -jar build/hello.jar
 
 ## References
 
-* `jar` tool tutorial: http://docs.oracle.com/javase/tutorial/deployment/jar/index.html
 * clojure enrty points: http://clojure.org/reference/repl_and_main
 * clojure compilation: http://clojure.org/reference/compilation
+* `jar` tool tutorial: http://docs.oracle.com/javase/tutorial/deployment/jar/index.html
 
